@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  line-height: 1.4;
+  background: rgb(16, 14, 23);
+}
+
+footer {
+  background: linear-gradient(90deg, rgba(255, 135, 4, 1) 31%, rgba(246, 48, 112, 1) 100%);
+}
+
+nav.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  border: 1px solid #999;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(255, 135, 4, 1) 31%, rgba(246, 48, 112, 1) 100%);
+}
+nav.menu>.left {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+nav.menu>.right {
+  display: flex;
+  justify-content: flex-end;
+}
+nav.menu >.right span{
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+nav.footerbody{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(255, 135, 4, 1) 31%, rgba(246, 48, 112, 1) 100%);
+}
+nav.footerbody >.footer-input{
+  display: flex;
+  justify-content: center;
+}
+#page-content {
+  margin: 10px 0 50px 0px;
+}
+.rows {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.Align-Content-Center {
+  align-items: center;
+}
+
+nav.footer-menu {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #999;
+  background: gray;
+}
+
+nav.footer-menu>.center {
+  text-align: center;
+
+}
